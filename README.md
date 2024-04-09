@@ -181,7 +181,7 @@ repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune 
 
 ```bash
 
-git clone https://github.com/tanvirr007/device_xiaomi_spes -b 14 device/xiaomi/spes
+git clone https://github.com/tanvirr007/device_xiaomi_spes -b 14.0 device/xiaomi/spes
 ```
 <b>Here,</b>
 
@@ -195,7 +195,7 @@ git clone https://github.com/tanvirr007/device_xiaomi_spes -b 14 device/xiaomi/s
 <b>Now clone this hardware tree</b> 👇
 
 ```bash
-git clone https://github.com/LineageOS/android_hardware_xiaomi.git -b lineage-20 hardware/xiaomi
+git clone https://github.com/LineageOS/android_hardware_xiaomi.git -b lineage-21 hardware/xiaomi
 ```
 
 <b>Now navigate to this path</b> 👇

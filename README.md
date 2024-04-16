@@ -147,14 +147,14 @@ cd rom_name
 
 <b>Initialize local repository</b>
 ```bash
-repo init -u https://git.libremobileos.com/LMODroid/manifest.git -b thirteen --git-lfs
+repo init -u https://git.libremobileos.com/LMODroid/manifest.git -b fourteen --git-lfs
 ```
 
 Here,
 
 `-b` stands for `branch`
 
-`thirteen` stands for `branch name`
+`fourteen` stands for `branch name`
 
 <br>
 
@@ -165,13 +165,13 @@ This `--depth=1` in Git means "clone only the latest commit, using less storage 
 `For e.g.`
 
 ```bash
-repo init -u https://git.libremobileos.com/LMODroid/manifest.git -b thirteen --git-lfs --depth=1
+repo init -u https://git.libremobileos.com/LMODroid/manifest.git -b fourteen --git-lfs --depth=1
 ```
 
 
 <b>Sync</b>
 ```bash
-repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
+repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
  
 
@@ -181,13 +181,13 @@ repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune 
 
 ```bash
 
-git clone https://github.com/tanvirr007/device_xiaomi_spes -b 14.0 device/xiaomi/spes
+git clone https://github.com/tanvirr007/device_xiaomi_spes -b 14-FIRE device/xiaomi/spes
 ```
 <b>Here,</b>
 
 `-b` stands for `branch`
 
-`13` for `branch name`
+`14-FIRE` for `branch name`
 
 `device/xiaomi/spes` is the download path
 <br>

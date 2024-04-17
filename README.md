@@ -181,13 +181,13 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 
 ```bash
 
-git clone https://github.com/tanvirr007/device_xiaomi_spes -b 14-FIRE device/xiaomi/spes
+git clone https://github.com/tanvirr007/device_xiaomi_spes -b 14.0 device/xiaomi/spes
 ```
 <b>Here,</b>
 
 `-b` stands for `branch`
 
-`14-FIRE` for `branch name`
+`14.0` for `branch name`
 
 `device/xiaomi/spes` is the download path
 <br>
